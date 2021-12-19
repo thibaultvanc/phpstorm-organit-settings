@@ -1,10 +1,48 @@
 <keymap version="1" name="Organit" parent="$default">
+  <action id="ActivateCommitToolWindow">
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="ActivateDatabaseToolWindow">
+    <keyboard-shortcut first-keystroke="f9" />
+  </action>
+  <action id="ActivateFindToolWindow">
+    <keyboard-shortcut first-keystroke="f6" />
+  </action>
+  <action id="ActivateHierarchyToolWindow">
+    <keyboard-shortcut first-keystroke="f7" />
+  </action>
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="f1" />
+  </action>
+  <action id="ActivateStructureToolWindow">
+    <keyboard-shortcut first-keystroke="f2" />
+  </action>
+  <action id="ActivateTODOToolWindow">
+    <keyboard-shortcut first-keystroke="f8" />
+  </action>
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="f12" />
+  </action>
+  <action id="ActivateVersionControlToolWindow">
+    <keyboard-shortcut first-keystroke="f10" />
+  </action>
+  <action id="Arrangement.Rule.Edit" />
+  <action id="BookmarksView.Rename" />
+  <action id="ChangesView.Rename">
+    <keyboard-shortcut first-keystroke="shift f6" />
+  </action>
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl f4" />
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
   <action id="Console.TableResult.CompareCells" />
+  <action id="Console.TableResult.EditValue">
+    <keyboard-shortcut first-keystroke="enter" />
+    <keyboard-shortcut first-keystroke="alt enter" />
+  </action>
+  <action id="ContextHelp" />
   <action id="Diff.ShowSettingsPopup" />
+  <action id="EditSource" />
   <action id="EditorDuplicate" />
   <action id="EditorDuplicateLines">
     <keyboard-shortcut first-keystroke="shift ctrl d" />
@@ -12,6 +50,18 @@
   <action id="EditorMoveToPageBottom" />
   <action id="EditorMoveToPageTop" />
   <action id="EditorSelectWord" />
+  <action id="ExternalSystem.OpenConfig" />
+  <action id="Git.Rename.Local.Branch">
+    <keyboard-shortcut first-keystroke="shift f6" />
+  </action>
+  <action id="Git.Reword.Commit">
+    <keyboard-shortcut first-keystroke="shift f6" />
+  </action>
+  <action id="GotoNextError" />
+  <action id="Jdbc.OpenEditor.Data" />
+  <action id="JumpToLastWindow" />
+  <action id="Log.JumpToSource" />
+  <action id="Move" />
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="shift ctrl down" />
   </action>
@@ -20,6 +70,8 @@
   </action>
   <action id="MoveStatementDown" />
   <action id="MoveStatementUp" />
+  <action id="NavBar-navigate" />
+  <action id="NextDiff" />
   <action id="NextEditorTab" />
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="ctrl page_down" />
@@ -27,8 +79,26 @@
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="ctrl page_up" />
   </action>
+  <action id="ProfilerJumpToSource" />
+  <action id="ProjectViewEditSource" />
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="ctrl r" />
+  </action>
+  <action id="RemoteHostView.EditSource" />
+  <action id="Replace" />
+  <action id="Resume" />
+  <action id="ShelvedChanges.Rename">
+    <keyboard-shortcut first-keystroke="shift f6" />
+  </action>
   <action id="SmartSelect" />
+  <action id="Sql.EditParameter" />
+  <action id="StepInto" />
+  <action id="StepOver" />
+  <action id="Table-startEditing" />
   <action id="TableResult.GrowSelection" />
+  <action id="Tree-startEditing" />
   <action id="Uml.ShowDiff" />
+  <action id="UsageFiltering.ReadAccess" />
   <action id="UsageFiltering.WriteAccess" />
+  <action id="XDebugger.SetValue" />
 </keymap>
