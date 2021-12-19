@@ -84,7 +84,6 @@
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
-  <action id="GotoLine" />
   <action id="GotoNextError" />
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="ctrl t" />
@@ -138,6 +137,10 @@
   <action id="StepOver" />
   <action id="Table-startEditing" />
   <action id="TableResult.GrowSelection" />
+  <action id="ToggleBookmark" />
+  <action id="ToggleFullScreen">
+    <keyboard-shortcut first-keystroke="f11" />
+  </action>
   <action id="Tree-startEditing" />
   <action id="Uml.ShowDiff" />
   <action id="UsageFiltering.ReadAccess" />
