@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern="DynamicClass" type="AUTO_DETECTED" />
       <mapping ext="js" type="PLAIN_TEXT" />
       <removed_mapping ext="js" approved="true" type="JavaScript" />
     </extensionMap>
